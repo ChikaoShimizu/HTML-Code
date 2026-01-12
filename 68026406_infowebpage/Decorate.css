@@ -1,0 +1,32 @@
+body {
+    background-image: url("img/Japanese Pattern.jpg");
+}
+
+*{
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Microsoft Sans Serif'; 
+    }
+
+table {
+  border-collapse: collapse;
+  width: 25%;
+}
+
+td, th {
+  border: 2px solid #15178c;
+  text-align: middle;
+  padding: 8px;
+  background-color: #b9bfff;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.prolude, .info {
+    background-color: #d4d5ff;
+    background-size: cover;
+    padding: 10px;
+    background-position: center;
+    border-radius: 20pt;
+    margin: 15px
+}
